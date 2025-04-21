@@ -47,8 +47,8 @@ AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "1c21247d714244ddbb09925dac565aed")
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "709e1a2969664491b58200860623ef19")
 
 
 # Maximum limit for fetching playlist's track from youtube, spotify, apple links.
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = "STRING_SESSION"
+STRING1 = "1BVtsOMQBu6Vj_3GmVtJ51w0nYtmlqrVzyyyJ5oLEnEvPzCxiATzhqeaUlQDzR_4ZWGkcP4ThAtO4yZIjkV9daV4hVbtCW8eedolNiUhQytRtOFjAQ6KRWb6k9t7Bxbr3IQmqrcYNGjMoMaT4X4LPZZNpEfitPNU8Duixw0vO364e5lnqnOyUvbmrE3tC33QbNArMxV2_Sj2swa7hN_uZO34bocPu4fzgpbT_GruscSTlVxkqpmf_MXZhg1nClpJhVSJ22CuBdFv8puSGCoPwFO5dqGNxutKybl22q-KVxNCsR-om5YzKTowz1i-DZXmwIl0_fT4RkTVrrb4b0L7bOOe8XTtOlQA="
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
